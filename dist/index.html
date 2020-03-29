@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="/calculator.9ad09f98.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@2/distr/fira_code.css">
+    <script src="/calculator.9ad09f98.js"></script></head>
+    <body>
+        <div class="calculator">
+            <div class="default-width display">
+                <label class="console"></label>
+            </div>
+            <div class="default-width row default-height">
+                <button class="half no-operator">C</button>
+                <button class="quarter no-operator">DEL</button>
+                <button onclick="divide()" class="quarter">&#247;</button>
+            </div>
+            <div class="default-width row default-height">
+                <button class="quarter no-operator">7</button>
+                <button class="quarter no-operator">8</button>
+                <button class="quarter no-operator">9</button>
+                <button onclick="multiply()" class="quarter">&#215;</button>
+            </div>
+            <div class="default-width row default-height">
+                <button class="quarter no-operator">4</button>
+                <button class="quarter no-operator">5</button>
+                <button class="quarter no-operator">6</button>
+                <button onclick="subtract()" class="quarter">&#8722;</button>
+            </div>
+            <div class="default-width row default-height">
+                <button class="quarter no-operator">1</button>
+                <button class="quarter no-operator">2</button>
+                <button class="quarter no-operator">3</button>
+                <button onclick="add()" class="quarter">&#43;</button>
+            </div>
+            <div class="default-width row default-height">
+                <button class="three-quarter no-operator">0</button>
+                <button onclick="equals()" class="quarter">&#61;</button>
+            </div>
+        </div>
+    </body>
+    <script src="/calculator.e31bb0bc.js"></script>
+</html>

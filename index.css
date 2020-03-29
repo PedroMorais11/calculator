@@ -1,0 +1,87 @@
+
+code { font-family: 'Fira Code', monospace; }
+
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
+}
+
+* {
+    font-family: monospace;
+    font-size: large;
+}
+
+.section {
+    display: flex;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator .default-width {
+    width: 30em;
+}
+
+.display {
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    text-align: center;
+    line-height: 6em;
+}
+
+.console {
+    color: white;
+    font-size: xxx-large;
+    margin-right: 10px;
+}
+
+.default-height {
+    height: 7em;
+}
+
+.row {
+    display: flex;
+}
+
+button {
+    font-family: 'Fira Code VF';
+    font-size: xx-large;
+    background: #D8D9DB;
+    border: black 1px solid;
+}
+
+button:last-child {
+   background: #DF974C;
+}
+
+button:hover {
+    background-color: rgb(232, 234, 236);
+}
+
+button:last-child:hover {
+    background-color: rgb(231, 167, 99);
+}
+
+button:active {
+    background-color: rgb(174, 177, 179);
+}
+
+button:last-child:active {
+    background-color: rgb(231, 130, 22);
+}
+
+.three-quarter {
+    width: 75%;
+}
+
+.half {
+    width: 50%;
+}
+
+.quarter {
+    width: 25%;
+}
